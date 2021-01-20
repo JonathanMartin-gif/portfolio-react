@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jonathanmartin-gif.github.io/portfolio-react/static/css/main.ca5e25c7.chunk.css",
-    "main.js": "/jonathanmartin-gif.github.io/portfolio-react/static/js/main.78b7aa8c.chunk.js",
-    "main.js.map": "/jonathanmartin-gif.github.io/portfolio-react/static/js/main.78b7aa8c.chunk.js.map",
+    "main.js": "/jonathanmartin-gif.github.io/portfolio-react/static/js/main.88019840.chunk.js",
+    "main.js.map": "/jonathanmartin-gif.github.io/portfolio-react/static/js/main.88019840.chunk.js.map",
     "runtime-main.js": "/jonathanmartin-gif.github.io/portfolio-react/static/js/runtime-main.08601fcb.js",
     "runtime-main.js.map": "/jonathanmartin-gif.github.io/portfolio-react/static/js/runtime-main.08601fcb.js.map",
     "static/css/2.c98b619f.chunk.css": "/jonathanmartin-gif.github.io/portfolio-react/static/css/2.c98b619f.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.c98b619f.chunk.css",
     "static/js/2.d1bc4c4c.chunk.js",
     "static/css/main.ca5e25c7.chunk.css",
-    "static/js/main.78b7aa8c.chunk.js"
+    "static/js/main.88019840.chunk.js"
   ]
 }
