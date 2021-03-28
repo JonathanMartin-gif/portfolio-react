@@ -1,6 +1,9 @@
 import React from 'react'
-import github1 from '../assets/images/javascript2.png'
-import github2 from '../assets/images/React.png'
+import localLibrary from '../assets/images/LocalLibrary.jpg'
+import decoderRing from '../assets/images/DecoderRing.jpg'
+import pomodoro from '../assets/images/Pomodoro.jpg'
+import githubFlash from '../assets/images/React.png'
+import githubGrub from '../assets/images/express.png'
 import Card from '../components/Card'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -14,27 +17,46 @@ class Carousel extends React.Component {
           id: 0,
           title: 'Local Library Project',
           subTitle: 'A local library with data populated with Javascript.',
-          imgSrc: github1,
+          imgSrc: localLibrary,
           link:
             'https://jonathanmartin-gif.github.io/project-local-library-master/public/',
-          selected: false,
+          selected: true,
         },
         {
           id: 1,
           title: 'Decoder Ring Project',
           subTitle:
             'A Decoder Ring that Decodes and Encodes using Javascript Algorithms.',
-          imgSrc: github1,
+          imgSrc: decoderRing,
           link: 'https://jonathanmartin-gif.github.io/project-decoder-ring/',
-          selected: false,
+          selected: true,
         },
         {
           id: 2,
           title: 'Pomodoro Timer',
           subTitle: 'A time project in React.js.',
-          imgSrc: github2,
+          imgSrc: pomodoro,
           link: 'https://pomodoro-timer-914gb43pj.vercel.app/',
-          selected: false,
+          selected: true,
+        },
+        {
+          id: 3,
+          title: 'FlashCard App',
+          subTitle: `A flash-card application built with react.js from API calls. 
+            Please note that there is a live version of this project, 
+            but the back-end still needs to be created.`,
+          imgSrc: githubFlash,
+          link: 'https://github.com/JonathanMartin-gif/FlashCardAppReact',
+          selected: true,
+        },
+        {
+          id: 4,
+          title: 'GrubDash API',
+          subTitle: `A API built for a GrubDash front-end using Node.js/Express.js. 
+            This is only the API with no database.`,
+          imgSrc: githubGrub,
+          link: 'https://github.com/JonathanMartin-gif/GrubDash_Back_End',
+          selected: true,
         },
       ],
     }
