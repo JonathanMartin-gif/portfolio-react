@@ -17,7 +17,7 @@ class Carousel extends React.Component {
         {
           id: 0,
           title: 'Old School Space Empire',
-          subTitle: 'A local library with data populated with Javascript.',
+          subTitle: `A browser based multiplayer space strategy game where you build you're empire to rule the universe.`,
           imgSrc: OSSE,
           link: 'https://oldschoolspaceeempire.com',
           selected: true,
