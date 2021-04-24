@@ -1,4 +1,5 @@
 import React from 'react'
+import OSSE from '../assets/images/OSSE.jpg'
 import localLibrary from '../assets/images/LocalLibrary.jpg'
 import decoderRing from '../assets/images/DecoderRing.jpg'
 import pomodoro from '../assets/images/Pomodoro.jpg'
@@ -15,6 +16,14 @@ class Carousel extends React.Component {
       items: [
         {
           id: 0,
+          title: 'Old School Space Empire',
+          subTitle: 'A local library with data populated with Javascript.',
+          imgSrc: OSSE,
+          link: 'https://oldschoolspaceeempire.com',
+          selected: true,
+        },
+        {
+          id: 1,
           title: 'Local Library Project',
           subTitle: 'A local library with data populated with Javascript.',
           imgSrc: localLibrary,
@@ -23,7 +32,7 @@ class Carousel extends React.Component {
           selected: true,
         },
         {
-          id: 1,
+          id: 2,
           title: 'Decoder Ring Project',
           subTitle:
             'A Decoder Ring that Decodes and Encodes using Javascript Algorithms.',
@@ -32,7 +41,7 @@ class Carousel extends React.Component {
           selected: true,
         },
         {
-          id: 2,
+          id: 3,
           title: 'Pomodoro Timer',
           subTitle: 'A time project in React.js.',
           imgSrc: pomodoro,
@@ -40,7 +49,7 @@ class Carousel extends React.Component {
           selected: true,
         },
         {
-          id: 3,
+          id: 4,
           title: 'FlashCard App',
           subTitle: `A flash-card application built with react.js from API calls. 
             Please note that there is a live version of this project, 
@@ -50,7 +59,7 @@ class Carousel extends React.Component {
           selected: true,
         },
         {
-          id: 4,
+          id: 5,
           title: 'GrubDash API',
           subTitle: `A API built for a GrubDash front-end using Node.js/Express.js. 
             This is only the API with no database.`,
