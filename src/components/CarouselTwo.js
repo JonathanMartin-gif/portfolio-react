@@ -2,12 +2,22 @@ import React from 'react'
 import Card from '../components/Card'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
+import thinkful from '../assets/images/Thinkful-Certificaiton.jpg'
 
 class CarouselTwo extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      items: [],
+      items: [
+        {
+          id: 0,
+          title: 'ThinkFul Certification',
+          subTitle: `A coding boot-camp where I learned the fundamentals of software engineering.`,
+          imgSrc: thinkful,
+          link: 'https://www.thinkful.com/',
+          selected: true,
+        },
+      ],
     }
   }
   handleCardClick = (id, card) => {
