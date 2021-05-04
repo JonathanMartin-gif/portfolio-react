@@ -19,7 +19,7 @@ class Carousel extends React.Component {
           title: 'Old School Space Empire',
           subTitle: `A browser based multiplayer space strategy game where you build you're empire to rule the universe.`,
           imgSrc: OSSE,
-          link: 'https://oldschoolspaceeempire.com',
+          link: 'https://oldschoolspaceempire.com',
           selected: true,
         },
         {
